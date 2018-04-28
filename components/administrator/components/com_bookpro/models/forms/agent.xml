@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset addfieldpath="/administrator/components/com_bookpro/elements">
+		<fields>
+		<field name="id" type="hidden" class="readonly" label="JGLOBAL_FIELD_ID_LABEL"
+			description="JGLOBAL_FIELD_ID_DESC" size="10" default="0" readonly="true" />
+			
+		
+		<field name="user"
+			type="user"
+			label="COM_BOOKPRO_USERS"
+			description="COM_BOOKPRO_USERS"
+		/>
+		
+		<field name="firstname" type="text"
+			class="inputbox"
+			description="COM_BOOKPRO_AGENT_FIRSTNAME"
+			label="COM_BOOKPRO_AGENT_FIRSTNAME"
+			required="true"
+			size="30"
+		/>
+		
+		<field name="lastname" type="text"
+			class="inputbox"
+			description="COM_BOOKPRO_AGENT_LASTNAME"
+			label="COM_BOOKPRO_AGENT_LASTNAME"
+			required="true"
+			size="30"
+		/>
+		
+		<field name="company" type="text"
+			class="inputbox"
+			description="COM_BOOKPRO_AGENT_COMPANY"
+			label="COM_BOOKPRO_AGENT_COMPANY"
+			required="true"
+			size="30"
+		/>
+		
+		<field name="brandname" type="text"
+			class="inputbox"
+			description="COM_BOOKPRO_AGENT_BRANDNAME"
+			label="COM_BOOKPRO_AGENT_BRANDNAME"
+			required="true"
+			size="30"
+		/>
+		<field name="image"
+			type="media"
+			hide_none="1"
+			label="COM_BOOKPRO_AGENT_IMAGE"
+			description="COM_BOOKPRO_AGENT_IMAGE"
+			/>
+		
+		<field name="telephone" type="text"
+			label="COM_BOOKPRO_AGENT_PHONE"
+			description="COM_BOOKPRO_AGENT_PHONE"
+
+			class="inputbox"
+			size="30"
+		/>
+
+		<field name="mobile" type="text"
+			label="COM_BOOKPRO_AGENT_MOBILE"
+			description="COM_BOOKPRO_AGENT_MOBILE"
+			class="inputbox"
+			size="30"
+		/>
+
+		<field name="fax" type="text"
+			label="COM_BOOKPRO_AGENT_FAX"
+			description="COM_BOOKPRO_AGENT_FAX"
+			class="inputbox"
+			size="30"
+		/>
+
+		<field name="website"	type="url"
+			filter="url"
+			label="COM_BOOKPRO_AGENT_WEBSITE"
+			description="COM_BOOKPRO_AGENT_WEBSITE"
+			class="inputbox"
+			size="30"
+		/>
+		
+		<field name="state" type="radio" label="JSTATUS"
+			description="COM_BOOKPRO_FIELD_STATE_DESC" class="inputbox btn-group small"
+			size="1" default="1">
+			<option value="1">JPUBLISHED</option>
+			<option value="0">JUNPUBLISHED</option>
+		</field>
+			
+	</fields>
+	</fieldset>
+
+</form>

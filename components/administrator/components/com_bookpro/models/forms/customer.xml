@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset addfieldpath="/administrator/components/com_bookpro/elements">
+
+		<field name="id" type="hidden" default="0" required="true"
+			readonly="true" />
+
+		<field id="title" name="title" type="text" required="false"
+			label="COM_BOOKPRO_SELECT_TITLE" description="COM_BOOKPRO_SELECT_TITLE"
+			class="input" size="40" />
+
+		<field id="firstname" name="firstname" type="text" required="true"
+			label="COM_BOOKPRO_CUSTOMER_FIRSTNAME" description="COM_BOOKPRO_CUSTOMER_FIRSTNAME"
+			class="input" size="40" />
+<field id="midlename" name="midlename" type="text" required="true"
+			label="COM_BOOKPRO_CUSTOMER_MIDLENAME" description="COM_BOOKPRO_CUSTOMER_MIDLENAME"
+			class="input" size="40" />
+
+		<field id="lastname" name="lastname" type="text" required="true"
+			label="COM_BOOKPRO_CUSTOMER_LASTNAME" description="COM_BOOKPRO_CUSTOMER_LASTNAME"
+			class="input" size="40" />
+		<field id="email" name="email" type="text" required="true"
+			label="COM_BOOKPRO_CUSTOMER_EMAIL" description="COM_BOOKPRO_CUSTOMER_EMAIL"
+			class="input" size="40" />
+		<field id="fax" name="fax" type="text"
+			label="COM_BOOKPRO_CUSTOMER_FAX" description="COM_BOOKPRO_CUSTOMER_FAX"
+			class="input" size="40" />
+
+		<field id="gender" name="gender" type="radio" required="false"
+			label="COM_BOOKPRO_CUSTOMER_GENDER" description="COM_BOOKPRO_CUSTOMER_GENDER"
+			class="btn-group" size="40">
+			<option value="M">COM_BOOKPRO_MALE</option>
+			<option value="F">COM_BOOKPRO_FEMALE</option>
+		</field>
+
+		<field id="birthday" name="birthday" type="calendar" required="false"
+			label="COM_BOOKPRO_CUSTOMER_BIRTHDAY" description="COM_BOOKPRO_CUSTOMER_BIRTHDAY"
+			class="input" size="16" format="%Y-%m-%d" />
+
+		<field id="telephone" name="telephone" type="text" required="false"
+			label="COM_BOOKPRO_CUSTOMER_TELEPHONE" description="COM_BOOKPRO_CUSTOMER_TELEPHONE"
+			class="input" size="40" />
+			
+		<field id="mobile" name="mobile" type="text" required="false"
+			label="COM_BOOKPRO_CUSTOMER_MOBILE" description="COM_BOOKPRO_CUSTOMER_MOBILE"
+			class="input" size="40" />
+		
+			
+		<field id="address" name="address" type="text" required="false"
+			label="COM_BOOKPRO_CUSTOMER_ADDRESS" description="COM_BOOKPRO_CUSTOMER_ADDRESS"
+			class="input" size="40" />
+		
+		<field id="city" name="city" type="text" required="false"
+			label="COM_BOOKPRO_CUSTOMER_CITY" description="COM_BOOKPRO_CUSTOMER_CITY"
+			class="input" size="40" />
+			
+		<field id="states" name="states" type="text" required="false"
+			label="COM_BOOKPRO_CUSTOMER_STATES" description="COM_BOOKPRO_CUSTOMER_STATES"
+			class="input" size="40" />
+
+		<field id="country_id" name="country_id" type="country"
+			required="false" label="COM_BOOKPRO_CUSTOMER_COUNTRY" description="COM_BOOKPRO_CUSTOMER_COUNTRY"
+			class="input" size="40" />
+		<field name="user" type="user" label="COM_BOOKPRO_CUSTOMER_USER" />
+
+		<field name="state" type="list" label="JSTATUS" class="chzn-color-state"
+			size="1" default="1">
+			<option value="1">JPUBLISHED</option>
+			<option value="0">JUNPUBLISHED</option>
+		</field>
+
+
+	</fieldset>
+</form>

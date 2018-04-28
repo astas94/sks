@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+<fieldset addfieldpath="/administrator/components/com_bookpro/elements">	
+	<fields>
+
+		<field
+			name="id"
+			type="hidden"
+			default="0"
+			required="true"
+			readonly="true"/>							
+		
+															
+		<field
+			id="location"
+			name="location"
+			type="text"
+			required="true"
+			label="COM_BOOKPRO_BUSSTOP_LOCATION"
+			description="COM_BOOKPRO_BUSSTOP_LOCATION"
+			class="inputbox"
+			size="40"/>						
+								
+													
+						
+		<field id="depart" name="depart" type="calendar" required="false"
+			label="COM_BOOKPRO_BUSSTOP_DEPART" description="COM_BOOKPRO_BUSSTOP_DEPART"
+			class="input" size="16" format="%Y-%m-%d" />
+						
+		<field
+			id="type"
+			name="type"
+			type="list"
+			label="COM_BOOKPRO_TYPE"
+			description="COM_BOOKPRO_TYPE"
+			class="inputbox"
+			size="1"
+			default="1">
+			<option
+				value="1">
+				COM_BOOKPRO_BUSSTOP_BOARDING</option>
+			<option
+				value="2">
+				COM_BOOKPRO_BUSSTOP_DROPOFF</option>
+			
+		</field>	
+																
+		<field
+			id="state"
+			name="state"
+			type="list"
+			label="JSTATUS"
+			description="JFIELD_PUBLISHED_DESC"
+			class="inputbox"
+			size="1"
+			default="1">
+			<option
+				value="1">
+				JPUBLISHED</option>
+			<option
+				value="0">
+				JUNPUBLISHED</option>
+			
+		</field>					
+				
+								
+	</fields>	
+</fieldset>		
+</form>	

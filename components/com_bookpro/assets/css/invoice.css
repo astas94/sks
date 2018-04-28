@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+
+.invoice{
+	width:768px;
+	border: 1px solid #ddd;
+}
+.invoice_center{
+	margin: 20px;
+}
+.company_logo{
+	border: 1px solid #ddd;
+	padding:1px;
+}
+.company_info{
+	text-align: left;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.invoice-header{
+	border-bottom: 1px solid #ddd;
+	padding-bottom:20px;
+}
+.invoice_print{
+	width:768px;
+}
+.customer-title{
+	text-align: left;
+	font-weight: bold;
+}
+.summary{
+	margin-top: 20px;
+}
+.invoice-title{
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+}
+.bus-infomation-title{
+	text-align: left;
+	
+}
+.total-label .tlabel{
+	float:left;
+	width:150px;
+}
+.total-label .total{
+	float:left;
+}
+.total-label{
+	font-weight: bold;
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+<fieldset addfieldpath="/administrator/components/com_bookpro/elements">	
+	<fields>
+
+		<field
+			name="id"
+			type="hidden"
+			default="0"
+			required="true"
+			readonly="true"/>							
+		
+															
+		<field
+			id="title"
+			name="title"
+			type="text"
+			required="true"
+			label="COM_BOOKPRO_TITLE"
+			description="COM_BOOKPRO_TITLE"
+			class="inputbox"
+			size="40"/>						
+								
+													
+						
+		<field
+			id="block_layout"
+			name="block_layout"
+			type="seatteamplate"
+			required="false"
+			label="Seat template"
+			description="COM_BOOKPRO_CGROUP_DISCOUNT"
+			class="inputbox"
+			size="40"/>	
+						
+		
+																
+							
+				
+								
+	</fields>	
+</fieldset>		
+</form>	

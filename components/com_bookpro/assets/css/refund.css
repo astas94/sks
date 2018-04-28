@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+.refund{
+	width:768px;
+	border: 1px solid #ddd;
+}
+.refund-center{
+	margin: 100px;
+}
+.refund-label{
+	font-weight: bold;
+	text-align: left;
+}
+.cancel_amount{
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 50px;
+}
+.cancel_time{
+	margin-top:50px;
+	text-align: left;
+}

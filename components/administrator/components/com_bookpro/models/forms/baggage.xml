@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+<fieldset addfieldpath="/administrator/components/com_bookpro/elements">	
+	<fields>
+
+		<field
+			name="id"
+			type="hidden"
+			default="0"
+			required="true"
+			readonly="true"/>							
+							
+		<field
+			name="id"
+			type="hidden"
+			default="0"
+			required="true"
+			readonly="true"/>							
+							
+		<field
+			id="published"
+			name="published"
+			type="list"
+			class="inputbox"
+			default="1"
+			size="1"
+			label="JField_Published_Label"
+			description="JField_Published_Desc">
+			<option
+				value="1">
+				JOption_Published</option>
+			<option
+				value="0">
+				JOption_UnPublished</option>
+			
+		</field>
+                          								
+		<field
+			id="weight"
+			name="weight"
+			type="text"
+			required="false"
+			label="COM_BOOKPRO_BAGGAGE_WEIGHT"
+			class="inputbox"
+			size="40"/>						
+								
+														
+		<field
+			id="agent_id"
+			name="agent_id"
+			type="agent"
+			required="false"
+			label="COM_BOOKPRO_AGENT"
+			class="inputbox"
+			size="40"/>						
+								
+														
+		<field
+			id="qty"
+			name="qty"
+			type="text"
+			required="false"
+			label="COM_BOOKPRO_BAGGAGE_QUANTITY"
+			class="inputbox"
+			size="40"/>						
+								
+														
+		<field
+			id="price"
+			name="price"
+			type="text"
+			required="false"
+			label="COM_BOOKPRO_BAGGAGE_PRICE"
+			class="inputbox"
+			size="40"/>						
+								
+								
+	</fields>	
+</fieldset>		
+</form>	

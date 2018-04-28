@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+	<name>Bus Search</name>
+	<author>Quan,Ngo Van</author>
+	<creationDate>April 2014</creationDate>
+	<copyright>Joombooking.com. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later;</license>
+	<authorEmail>quan@joombooking.com</authorEmail>
+	<authorUrl>http://joombooking.com</authorUrl>
+	<version>2.2.0</version>
+	<description>JBBus Search</description>
+	<files>
+		<filename module="mod_jbbus_bussearch">mod_jbbus_bussearch.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+		<folder>assets</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_jbbus_bussearch.ini</language>
+	</languages>
+	<config>
+		
+		<fields name="params">
+			<fieldset name="basic">
+					<field name="layout" type="modulelayout" default="45" label="Layout" description="Layout default or vertical" />
+					<field name="roundtrip" type="radio" label="Default search" class="btn-group" default="0">
+						<option value="1">Roundtrip</option>
+						<option value="0">OneWay</option>
+					</field>
+				    <field name="Itemid" type="menuitem" label="Item ID" description="Choose Itemid to display search result" />
+					 <field name="child" type="radio" label="Enable Child"  class="btn-group" >
+				      <option value="1">JYes</option>
+					  <option value="0">JNo</option>
+					</field>
+					 <field name="senior" type="radio" label="Enable Senior"  class="btn-group" >
+				      <option value="1">JYes</option>
+					  <option value="0">JNo</option>
+					</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

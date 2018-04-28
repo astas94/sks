@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset addfieldpath="/administrator/components/com_bookpro/elements">
+		<field name="id" type="hidden" class="readonly" label="JGLOBAL_FIELD_ID_LABEL"
+			description="JGLOBAL_FIELD_ID_DESC" size="10" default="0" readonly="true" />
+			
+		
+		<field name="code"	type="text"
+			
+			label="COM_BOOKPRO_BUSTRIP_CODE"
+			description="COM_BOOKPRO_BUSTRIP_CODE"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		
+		
+		<field name="bus_id" type="bus"
+			class="inputbox"
+			description="COM_BOOKPRO_BUSTRIP_BUS"
+			label="COM_BOOKPRO_BUSTRIP_BUS"
+			required="true"
+			size="30"
+		/>
+		
+		<field name="agent_id" type="agent"
+			class="inputbox"
+			description="COM_BOOKPRO_AGENT"
+			label="COM_BOOKPRO_AGENT"
+			required="true"
+			size="30"
+		/>
+		
+		<field name="dest_id[]" type="destination"
+			class="inputbox"
+			description="COM_BOOKPRO_BUSTRIP_FROM"
+			label="COM_BOOKPRO_BUSTRIP_FROM"
+			required="true"
+			size="30"
+		/>
+		
+		<field name="dest_id[]" type="destination"
+			class="inputbox"
+			description="COM_BOOKPRO_BUSTRIP_TO"
+			label="COM_BOOKPRO_BUSTRIP_TO"
+			required="true"
+			size="30"
+		/>
+		
+		<field name="start_time"	type="text"
+			
+			label="COM_BOOKPRO_BUSTRIP_START_TIME"
+			description="COM_BOOKPRO_BUSTRIP_START_TIME"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		
+		<field name="end_time"	type="text"
+			
+			label="COM_BOOKPRO_BUSTRIP_END_TIME"
+			description="COM_BOOKPRO_BUSTRIP_END_TIME"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		
+		<field name="start_loc"	type="text"
+			
+			label="COM_BOOKPRO_BUSTRIP_START_LOC"
+			description="COM_BOOKPRO_BUSTRIP_START_LOC"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		
+		<field name="end_loc"	type="text"
+			
+			label="COM_BOOKPRO_BUSTRIP_END_LOC"
+			description="COM_BOOKPRO_BUSTRIP_END_LOC"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		
+		<field name="duration"	type="text"
+			
+			label="COM_BOOKPRO_BUSTRIP_DURATION"
+			description="COM_BOOKPRO_BUSTRIP_DURATION"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		
+		<field name="state" type="radio" label="JSTATUS"
+			description="COM_BOOKPRO_FIELD_STATE_DESC" class="inputbox btn-group small"
+			size="1" default="1">
+			<option value="1">JPUBLISHED</option>
+			<option value="0">JUNPUBLISHED</option>
+		</field>
+	</fieldset>
+
+</form>

@@ -1,0 +1,23 @@
+/*--------------------------*/
+	.sidebar-nav ul li 
+	{
+	line-height: 25px !important;
+	border-bottom: 1px #277ab1 solid;
+	}
+	.sidebar-nav
+	{
+	background:#2980b9;
+	}
+	.sidebar-nav .nav-list > li > a 
+	{
+		color: #fff !important;
+	}
+	.nav > li > a:hover
+	{
+		text-decoration: none;
+		background-color: #3498db !important;
+	}
+	.nav-list  > li > a
+	{
+	background: url("../images/arrow.png") no-repeat scroll 90% 50% rgba(0, 0, 0, 0) !important;
+	}

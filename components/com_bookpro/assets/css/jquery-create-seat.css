@@ -1,0 +1,82 @@
+.hasCreteseat .block_item
+{
+    margin: 5px;
+    width: 10px;
+    background: black;
+    height: 10px;
+    float: left;
+}
+.hasCreteseat .block_item.seat
+{
+    background-color: transparent;
+    background-image: url("../images/seat_available_seats.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+.hasCreteseat .block_item
+{
+     height: 20px;
+     width: 20px;
+}
+.hasCreteseat .block_item.media
+{
+     background-image: url("../images/media.png");
+     background-color: transparent;
+     border: none;
+     clear: right;
+}
+.hasCreteseat .block_item.wc
+{
+      background-image: url("../images/wc.png");
+     background-color: transparent;
+}
+.hasCreteseat .block_item.other
+{
+    /*-background-image: url("../images/other.png");*/
+    background-image: url("../images/seat_booked_seats.png");
+     background-color: transparent;
+}
+.hasCreteseat .block_item.hidden
+{
+    height: 20px;
+    width: 20px;
+    background: none;
+    display: block;
+}
+ .hasCreteseat .block_item.seat.selected
+ {
+     background-image: url("../images/seat_booked_seats.png");
+     cursor: default;
+ }
+.hasCreteseat .block_item.seat.choose {
+    background-image: url("../images/seat_seclected_seats.png");
+}
+
+
+
+.hasCreteseat .block_item.sleeper {
+    background-color: transparent;
+    background-image: url("../images/seat_available_seats_sleeper.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 40px;
+}
+
+
+.hasCreteseat .block_item.sleeper.choose {
+    background-image: url("../images/seat_seclected_seats_sleeper.png");
+}
+
+.hasCreteseat .block_item.sleeper.selected {
+    background-image: url("../images/seat_booked_seats_sleeper.png");
+    cursor: default;
+}

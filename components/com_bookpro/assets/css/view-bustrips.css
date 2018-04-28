@@ -1,0 +1,472 @@
+.formchooseseat
+{
+	
+  border: 4px solid lightGrey;
+  clear: both;
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+
+}
+.yourseat
+{
+	
+}
+.control
+{
+	width: 20px;
+}
+.listseat
+{
+	padding-left: 5px;
+}
+.tr_viewseat .selectmsg span
+{
+	 color: #989898;
+    font-size: 10px;
+    text-align: center;
+     font-weight: bold;
+}
+.tr_viewseat .selectmsg
+{
+	color: #989898;
+    float: left;
+    font-size: 10px;
+    left: 20px;
+    padding: 7px 10px 10px 5px;
+    position: relative;
+    text-align: center;
+}
+.busitem .viewseat
+{
+	/*background: url('../images/selectbus_sprite.png') 0 -178px;*/
+	cursor: pointer;
+     outline: medium none;
+    text-decoration: none;
+    
+}
+
+.bodybuyt
+{
+	display: block;
+	overflow: hidden;
+	width: 440px;
+	border: 1px solid #B8B8B8;
+    border-radius: 6px 6px 6px 6px;
+    padding: 5px 10px 5px 0;
+    float: left;
+    
+}
+
+.upper_bodybuyt
+{
+	display: block;
+	overflow: hidden;
+	width: 330px;
+	border: 1px solid #B8B8B8;
+    border-radius: 6px 6px 6px 6px;
+    padding: 5px 10px 5px 0;
+    float: left;
+    
+}
+.bodybuyt.seat_sleeper
+{
+	width: 620px;
+	float: none;
+	margin-top: 10px;
+}
+.wapper_bodybuyt
+{
+	float: left;
+}
+.seats
+{
+	display: block;
+	overflow: hidden;
+	float: right;
+}
+.seats .colum
+{
+    width: 30px;
+    float: left;
+}
+.seats .colum.seat_sleeper
+{
+	width: 50px;
+}
+.seats .colum.seat_sleeper.seat_sleeper_vertical
+{
+	width: 25px;
+}
+.seats  .seat.seat_sleeper
+{
+	background-position: -40px 0;
+	height: 20px;
+    width: 40px;
+}
+.seats  .seat.seat_sleeper_vertical.seat_sleeper_vertical
+{
+	background-position: -125px 0px;
+	height: 40px;
+    width: 20px;
+    margin-top: 40px;
+}
+.seats  .seat.seat_sleeper.choose
+{
+	background-position: -40px -60px;
+}
+.seats  .seat.seat_sleeper.seat_sleeper_vertical.choose
+{
+	background-position: -187px 0px;
+}
+
+.seats  .seat
+{
+	height: 20px;
+    width: 20px;
+    background-image: url("../images/Seatlayout.png");
+    background-repeat: no-repeat;
+    display: block;
+    background-position: 0 0;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.seats  .noneseat.none_seat_sleeper
+{
+	
+}
+.seats  .noneseat
+{
+	background:none;
+	cursor: default;
+}
+.seats  .unselect
+{
+	background-position: 0 -40px;
+	cursor: default;
+}
+.seats  .unselect.seat_sleeper
+{
+	background-position: -40px -40px;
+}
+.seats  .choose
+{
+	background-position: 0 -60px;
+}
+.payout
+{
+	display: block;
+    /* float: left; */
+    width: 166px;
+    padding-left: 50px;
+}
+.radio_bus
+{
+	display: none;
+}
+
+
+.Label2,.Label1
+{
+	 background-image: url("../images/Seatlayout.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    width: 20px;
+    background-position: -51px -132px;
+    height: 50px;
+    margin: 32px 0 0 32px;
+    position: absolute;
+}
+.Label1
+{
+	background-position: -23px -132px;
+}
+
+.lowerlabel
+{
+	 background-image: url("../images/Seatlayout.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    width: 20px;
+    background-position: -24px -106px;
+    height: 20px;
+    margin: 4px 0 0 4px;
+    position: absolute;
+    
+}
+.lowerlabel-right{
+	bottom: 35px;
+}
+.lowerlabe-left{
+	top:10px;
+}
+.door
+{
+	 background-image: url("../images/door.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    width: 20px;
+    height: 20px;
+    margin: 4px 0 0 4px;
+    position: absolute;
+    top: 25px;
+}
+.lowerlabel.lowerlabel2
+{
+	display: none;
+}
+.noteseats
+{
+	display: block;
+	float: left;
+	padding-left: 20px;
+}
+.noteseats .seatsDefn
+{
+	font-size: 0.75em;
+    list-style-type: none;
+  /* 
+  	 margin: -18px 0 0;
+  */
+    padding: 6px;
+    display: block;
+    
+}
+.noteseats .seatsDefn .avaiableseat,.noteseats .seatsDefn .reservedforladies,.noteseats .seatsDefn .selectedseat,.noteseats .seatsDefn .bookedseat
+{
+	background-image: url("../images/VerticalLegend.png");
+    background-repeat: no-repeat;
+    padding:5px 0 0 25px;
+    margin: 0;
+}
+.noteseats .seatsDefn .avaiableseat.seat_sleeper,.noteseats .seatsDefn .reservedforladies.seat_sleeper,.noteseats .seatsDefn .selectedseat.seat_sleeper,.noteseats .seatsDefn .bookedseat.seat_sleeper
+{
+	background-image: url("../images/Seatlayout.png");
+	padding:5px 0 0 50px;
+}
+.noteseats .seatsDefn .avaiableseat
+{
+	 background-position: 0px 5px;
+    font-family: Arial;
+    font-size: 11px;
+    height: 18px;
+    text-indent: 0;
+    width: auto;
+}
+.noteseats .seatsDefn .avaiableseat.seat_sleeper
+{
+	background-image:url("../images/seat_available_seats.png");
+}
+.noteseats .seatsDefn .reservedforladies
+{
+	background-position: 0px -19px;
+    font-family: Arial;
+    font-size: 11px;
+    height: 18px;
+    text-indent: 0;
+    width: auto;
+}
+.noteseats .seatsDefn .selectedseat
+{
+	background-position: 0px -42px;
+    font-family: Arial;
+    font-size: 11px;
+    height: 19px;
+    text-indent: 0;
+    width: auto;
+}
+.noteseats .seatsDefn .selectedseat.seat_sleeper
+{
+	background-image:url("../images/seat_seclected_seats.png");
+}
+.noteseats .seatsDefn .bookedseat
+{
+	background-position: 0px -90px;
+    font-family: Arial;
+    font-size: 11px;
+    height: 18px;
+    text-indent: 0;
+    width: auto;
+}
+.noteseats .seatsDefn .bookedseat.seat_sleeper
+{
+	background-image:url("../images/seat_booked_seats.png");
+}
+/*select bustype*/
+.fillter
+{
+	height: 30px;
+}
+.bus-list .asc,.bus-list .esc
+{
+	background: url("../images/selectbus_sprite.png") no-repeat scroll 0 0 transparent;
+	display: inline-block;
+    height: 12px;
+    left: 3px;
+    position: relative;
+    visibility: visible;
+    width: 8px;
+}
+.bus-list .asc
+{
+	background-position: -150px -183px;
+}
+.bus-list .esc
+{
+	    background-position: -135px -183px;
+}
+.form.bustype
+{
+	width: 200px;
+	float: left;
+	position: relative;
+	
+}
+.form.bustype .bustype
+{
+	background-color: #FFFFFF;
+	border: 1px solid #B1B3B6;
+    border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+    height: 16px;
+    padding: 4px 8px;
+}
+.form.bustype .bustype .icon-bustype
+{
+	background: url("../images/selectbus_sprite.png") no-repeat scroll 0 0 transparent;
+	background-position: -167px 1px;
+    float: left;
+    height: 16px;
+    padding-left: 18px;
+    width: 50px;
+}
+.form.bustype .bustype .drop-arrow
+{
+	background: url("../images/selectbus_sprite.png") no-repeat scroll 0 0 transparent;
+    background-position: -167px -72px;
+    float: right;
+    height: 12px;
+    width: 12px;
+}
+.form.bustype .bustype .close-icon
+{
+	background: url("../images/gtk-close.png") no-repeat scroll 0 0 transparent;
+	background-position: -4px -3px;
+	background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    height: 12px;
+    padding-right: 0;
+    position: relative;
+    text-indent: -9999px;
+    top: 3px;
+    width: 12px;
+}
+.form.bustype .bustype-div
+{
+	background:#fff;
+	border: 1px solid #D3D3D3;
+	border-radius: 4px 4px 4px 4px;
+    margin: 0;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 5px;
+    position: absolute;
+    width: 192px;
+    z-index: 999;
+    display: none;
+    
+}
+.form.bustype .bustype-div ul
+{
+	margin: 0px;
+	padding: 5px;
+}
+.form.bustype .bustype-div ul li
+{
+	margin:0px;
+	padding: 0px;
+}
+.form.bustype .bustype-div ul li a
+{
+	
+}
+.form.bustype .bustype-div ul li a span
+{
+	display: block;
+    float: left;
+    padding-left: 8px;
+    white-space: nowrap;
+	 
+}
+.form.bustype .bustype-div ul li,.form.bustype .bustype-div .selectall span
+{
+	 cursor: pointer;
+}
+.form.bustype .bustype-div ul li a .icon-checkbox,.form.bustype .bustype-div ul li a .icon-uncheckbox
+{
+	background: url("../images/selectbus_sprite.png") no-repeat scroll transparent;
+	display: inline-block;
+    float: left;
+    height: 13px;
+    padding-top: 6px;
+    top: 0;
+    width: 14px;
+}
+.form.bustype .bustype-div ul li a .icon-checkbox
+{
+	background-position:-121px -84px;
+} 
+.form.bustype .bustype-div ul li a .icon-uncheckbox
+{
+	background-position:-136px -84px
+}
+.form.bustype .bustype-div .selectall
+{
+	text-align: right;
+}
+.form.bustype .bustype-div .selectall span
+{
+	padding-right: 5px;
+}
+.search_items
+{
+	overflow: hidden;
+}
+
+.search_items span
+{
+	float: left;
+}
+.search_items .items
+{
+	float: left;
+}
+.search_items .items .item
+{
+	float: left;
+	display: block;
+	background: #FFFFCC;
+	margin-left: 5px;
+	
+}
+.search_items .items .item .content
+{
+	float: left;
+}
+.search_items .items .item .close
+{
+	background: url("../images/gtk-close.png") no-repeat scroll -4px -3px transparent;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    height: 12px;
+    padding-right: 0;
+    position: relative;
+    top: 3px;
+    width: 12px;
+    margin-left: 5px;
+}

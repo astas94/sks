@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+<fieldset addfieldpath="/administrator/components/com_bookpro/elements">	
+	<fields>
+
+		<field
+			name="id"
+			type="hidden"
+			default="0"
+			required="true"
+			readonly="true"/>							
+		
+		<field
+			name="lft"
+			type="hidden"
+			filter="unset" />
+
+		<field
+			name="rgt"
+			type="hidden"
+			filter="unset" />
+	
+		<field
+			name="level"
+			type="hidden"
+			filter="unset" />	
+		<field name="image" type="media" directory="com_bookpro"
+   			hide_none="1" label="COM_BOOKPRO_AIRPORT_IMAGE" size="40"
+   				description="COM_BOOKPRO_AIRPORT_IMAGE" />														
+		<field
+			id="title"
+			name="title"
+			type="text"
+			required="true"
+			label="COM_BOOKPRO_AIRPORT_TITLE"
+			description="COM_BOOKPRO_AIRPORT_TITLE"
+			class="inputbox"
+			size="40"/>						
+								
+		<field
+			id="alias"
+			name="alias"
+			type="text"
+			label="JFIELD_ALIAS_LABEL"
+			description="JFIELD_ALIAS_DESC"
+			class="inputbox"
+			size="45" />												
+		<field
+			id="value"
+			name="value"
+			type="text"
+			required="false"
+			label="COM_BOOKPRO_AIRPORT_VALUE"
+			description="COM_BOOKPRO_AIRPORT_VALUE"
+			class="inputbox"
+			size="40"/>						
+		<field
+			id="code"
+			name="code"
+			type="text"
+			required="false"
+			label="COM_BOOKPRO_AIRPORT_CODE"
+			description="COM_BOOKPRO_AIRPORT_CODE"
+			class="inputbox"
+			size="40"/>	
+		<field
+			id="location"
+			name="location"
+			type="location"
+			autocomplete="false"
+			zoom="17"
+			latitude="10"
+			longitude="30"
+			width="300"
+			height="300"
+			required="false"
+			label="COM_BOOKPRO_AIRPORT_LOCATION"
+			description="COM_BOOKPRO_AIRPORT_LOCATION"
+			class="inputbox"
+			/>
+		
+		<field
+			name="longitude"
+			type="hidden"
+			default="0"
+			required="false"
+			readonly="true"/>	
+		
+		<field
+			name="latitude"
+			type="hidden"
+			default="0"
+			required="false"
+			readonly="true"/>		
+						
+							
+		<field
+		name="parent_id"
+		type="categoryedit"
+		label="COM_BOOKPRO_AIRPORT_PARENT"
+		description="COM_CATEGORIES_FIELD_PARENT_DESC"
+		 />													
+		<field
+			id="country_id"
+			name="country_id"
+			type="country"
+			required="false"
+			label="COM_BOOKPRO_AIRPORT_COUNTRY"
+			description="COM_BOOKPRO_AIRPORT_COUNTRY"
+			class="inputbox"
+			/>					
+								
+														
+		<field
+			id="state"
+			name="state"
+			type="list"
+			label="JSTATUS"
+			description="JFIELD_PUBLISHED_DESC"
+			class="inputbox"
+			size="1"
+			default="1">
+			<option
+				value="1">
+				JPUBLISHED</option>
+			<option
+				value="0">
+				JUNPUBLISHED</option>
+			
+		</field>					
+		<field name="desc" type="editor" buttons="true"
+	   hide="pagebreak,readmore" class="inputbox" filter="JComponentHelper::filterText"
+	   label="JGLOBAL_DESCRIPTION" description="COM_BOOKPRO_ITEMS_DESCRIPTION_DESC" />					
+		<field name="intro" type="editor" buttons="true"
+	   hide="pagebreak,readmore" class="inputbox" filter="JComponentHelper::filterText"
+	   label="JGLOBAL_DESCRIPTION" description="COM_BOOKPRO_ITEMS_DESCRIPTION_DESC" />														
+		
+		  <field name="air" type="radio" label="COM_BOOKPRO_AIRPORT_IS_AIRPORT" description="JFIELD_PUBLISHED_DESC"
+		   class="btn-group" size="1" default="1">
+		   <option value="1">YES</option>
+		   <option value="0">NO</option>
+		  </field>		
+		  <field name="province" type="radio" label="COM_BOOKPRO_AIRPORT_IS_PROVINCE_CITY" description="JFIELD_PUBLISHED_DESC"
+		   class="btn-group" size="1" default="1">
+		   <option value="1">YES</option>
+		   <option value="0">NO</option>
+		  </field>
+		<field name="bus" type="radio" label="COM_BOOKPRO_AIRPORT_IS_BUS_STATION" description="JFIELD_PUBLISHED_DESC"
+		   class="btn-group" size="1" default="1">
+		   <option value="1">YES</option>
+		   <option value="0">NO</option>
+		  </field>				
+								
+	</fields>	
+</fieldset>		
+</form>	

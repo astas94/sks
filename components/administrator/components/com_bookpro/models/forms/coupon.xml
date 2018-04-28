@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+<fieldset addfieldpath="/administrator/components/com_bookpro/elements">	
+	<fields>
+
+		<field
+			name="id"
+			type="hidden"
+			default="0"
+			required="true"
+			readonly="true"/>							
+		
+															
+		<field
+			id="title"
+			name="title"
+			type="text"
+			required="true"
+			label="COM_BOOKPRO_COUPON_TITLE"
+			description="COM_BOOKPRO_COUPON_TITLE"
+			class="inputbox"
+			size="40"/>						
+								
+													
+						
+		<field
+			id="code"
+			name="code"
+			type="text"
+			required="false"
+			label="COM_BOOKPRO_COUPON_CODE"
+			description="COM_BOOKPRO_COUPON_CODE"
+			class="inputbox"
+			size="40"/>	
+						
+		<field name="subtract_type" type="radio" label="COM_BOOKPRO_COUPON_SUBTRACT_TYPE" description="COM_BOOKPRO_COUPON_SUBTRACT_TYPE"
+		   class="btn-group" size="1" default="1">
+		   <option value="1">COM_BOOKPRO_PERCENTAGE</option>
+		   <option value="0">COM_BOOKPRO_FIX_AMOUNT</option>
+		  </field>							
+		<field
+			id="amount"
+			name="amount"
+			type="text"
+			required="false"
+			label="COM_BOOKPRO_COUPON_AMOUNT"
+			description="COM_BOOKPRO_COUPON_AMOUNT"
+			class="inputbox"
+			size="40"/>		
+		<field
+			id="total"
+			name="total"
+			type="text"
+			required="false"
+			label="COM_BOOKPRO_COUPON_TOTAL"
+			description="COM_BOOKPRO_COUPON_TOTAL"
+			class="inputbox"
+			size="40"/>	
+		<field
+			id="remain"
+			name="remain"
+			type="text"
+			required="false"
+			label="COM_BOOKPRO_COUPON_REMAIN"
+			description="COM_BOOKPRO_COUPON_REMAIN"
+			class="inputbox"
+			size="40"/>	
+		<field
+			id="publish_date"
+			name="publish_date"
+			type="calendar"
+			required="false"
+			label="COM_BOOKPRO_PUBLISH_DATE"
+			description="COM_BOOKPRO_PUBLISH_DATE"
+			class="inputbox"
+			size="16"
+			format="%Y-%m-%d"/>		
+		<field
+			id="unpublish_date"
+			name="unpublish_date"
+			type="calendar"
+			required="false"
+			label="COM_BOOKPRO_UNPUBLISH_DATE"
+			description="COM_BOOKPRO_UNPUBLISH_DATE"
+			class="inputbox"
+			size="16"
+			format="%Y-%m-%d"/>	
+																
+		<field
+			id="state"
+			name="state"
+			type="list"
+			label="JSTATUS"
+			description="JFIELD_PUBLISHED_DESC"
+			class="inputbox"
+			size="1"
+			default="1">
+			<option
+				value="1">
+				JPUBLISHED</option>
+			<option
+				value="0">
+				JUNPUBLISHED</option>
+			
+		</field>					
+				
+								
+	</fields>	
+</fieldset>		
+</form>	

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+        <layout title="COM_BOOKPRO_REGISTER_VIEW_DEFAULT_TITLE">
+                 <message><![CDATA[COM_BOOKPRO_REGISTER_VIEW_DEFAULT_DESC]]></message>
+        </layout>
+        <fields name="params" >
+		<fieldset name="basic" label="JGLOBAL_LIST_LAYOUT_OPTIONS">
+			<field
+				name="new_usertype"
+				type="usergroup"
+				default="2"
+				label="COM_BOOKPRO_USER_GROUP">
+			</field>
+			</fieldset>
+			</fields>
+</metadata>

@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+.report-menu{
+	float:left;
+}
+.report-menu ul{
+	list-style: none;
+}
+.report-menu ul li{
+	float:left;
+	padding:0 10px;
+}
+.summary{
+	float: right;
+}

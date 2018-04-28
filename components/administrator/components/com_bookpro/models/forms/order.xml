@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset>
+    	<field name="id" type="text" class="readonly" label="JGLOBAL_FIELD_ID_LABEL" description="JGLOBAL_FIELD_ID_DESC" size="10" default="0" readonly="true" />    
+        <field name="order_number" type="text" default="0" label="COM_BOOKPRO_ORDER_NUMBER" size="60"
+            readonly="true" class="readonly" description="COM_BOOKPRO_ORDER_NUMBER"/>
+   
+    <field name="pay_status" type="list" label="COM_BOOKPRO_ORDER_PAY_STATUS" description="COM_BOOKPRO_ORDER_PAY_STATUS"
+			class="input" size="1" default="1">
+			<option value="SUCCESS">Оплачено</option>
+			<option value="PENDING">Не оплачено</option>
+			<option value="REFUND">Возврат средств</option>				
+			<option value="FAILED">Ошибка</option>			
+	</field>
+	
+	<field name="pay_method" type="text" label="COM_BOOKPRO_ORDER_PAYMENT_METHOD" size="60"
+              description="COM_BOOKPRO_ORDER_PAYMENT_METHOD" required="true"/>
+	
+	<field name="order_status" type="list" label="COM_BOOKPRO_ORDER_STATUS" size="1"
+              description="COM_BOOKPRO_ORDER_STATUS" required="true" default="PENDING">
+			<option value="PENDING">В ожидании</option>
+			<option value="CONFIRMED">Подтверждено</option>
+			<option value="CANCELLED_L_B_D">Отменён заранее</option>
+			<option value="CANCELLED_B_D">Отменён перед отправлением</option>
+			<option value="CANCELLED_A_D">Отменён после отправления</option>
+			<option value="CANCELLED">Отменено</option>		
+			<option value="FINISHED">Закончено</option>
+	</field>
+	
+	 <field name="notify_customer" type="radio" label="COM_BOOKPRO_ORDER_NOTIFY_TO_CUSTOMER" description="COM_BOOKPRO_ORDER_NOTIFY_TO_CUSTOMER"
+			class="btn-group" default="true">
+			<option value="false">Нет</option>
+			<option value="true">Да</option>
+						
+		</field>
+		
+	 <field name="total" type="text" id="total" default="0" label="COM_BOOKPRO_ORDER_TOTAL" size="60"
+              description="COM_BOOKPRO_ORDER_TOTAL" required="true"/>
+	 
+	 <field name="discount" type="text" id="discount" default="0" label="COM_BOOKPRO_ORDER_DISCOUNT" size="60"
+              description="COM_BOOKPRO_ORDER_DISCOUNT" required="true"/>
+	 
+	 <field name="tx_id" type="text" id="tx_id" label="COM_BOOKPRO_ORDER_TRANSACTION_ID" size="60"
+              description="COM_BOOKPRO_ORDER_TRANSACTION_ID" />
+
+	 <field name="tx_operation_id" type="text" id="tx_operation_id" label="COM_BOOKPRO_ORDER_OPERATION_ID" size="60"
+              description="COM_BOOKPRO_ORDER_OPERATION_ID" />
+	 
+	 <field name="deposit" type="text" id="deposit" label="COM_BOOKPRO_ORDER_DEPOSIT" size="60"
+              description="COM_BOOKPRO_ORDER_DEPOSIT" />
+	 
+	 <field name="notes" type="textarea" id="notes" label="COM_BOOKPRO_ORDER_NOTES" rows="10" cols="100"
+              description="COM_BOOKPRO_ORDER_NOTES" />
+	
+    </fieldset>
+	
+</form>

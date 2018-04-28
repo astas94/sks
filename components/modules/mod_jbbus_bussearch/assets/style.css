@@ -1,0 +1,8 @@
+div.inline{
+	
+	display:inline-block;
+}
+#start, #end {
+	max-width: 80px;
+	
+}

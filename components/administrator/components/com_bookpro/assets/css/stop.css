@@ -1,0 +1,6 @@
+@CHARSET "ISO-8859-1";
+.stop-grid{
+	border-bottom:1px solid #ddd;
+	padding-bottom:20px;
+	margin-bottom: 20px;
+}
